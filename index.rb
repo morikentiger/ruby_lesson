@@ -5,3 +5,4 @@ end
 introduce("にんじゃわんこ")
 introduce("ひつじ仙人")
 introduce("ベイビーわんこ")
+introduce("morikentiger")
