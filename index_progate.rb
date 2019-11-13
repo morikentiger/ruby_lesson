@@ -1,11 +1,16 @@
-require "./menu"
+require "./food"
+require "./drink"
 
-menu1 = Menu.new(name: "ピザ", price: 800)
-menu2 = Menu.new(name: "すし", price: 1000)
-menu3 = Menu.new(name: "コーラ", price: 300)
-menu4 = Menu.new(name: "お茶", price: 200)
+food1 = Food.new(name: "ピザ", price: 800)
+food1.calorie = 700
+food2 = Food.new(name: "すし", price: 1000)
+food2.calorie = 600
+drink3 = Drink.new(name: "コーラ", price: 300)
+drink3.amount = 500
+drink4 = Drink.new(name: "お茶", price: 200)
+drink4.amount = 400
 
-menus = [menu1, menu2, menu3, menu4]
+menus = [food1, food2, drink3, drink4]
 
 index = 0
 menus.each do |menu|
