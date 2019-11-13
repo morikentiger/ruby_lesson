@@ -1,5 +1,5 @@
 require "./menu"
 
-class Drink < menu
-  
+class Drink < Menu
+  attr_accessor :amount
 end
