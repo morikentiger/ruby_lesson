@@ -1,7 +1,7 @@
 class Person
   attr_accessor :name
   attr_accessor :age
-  def initialize(name, age)
+  def initialize(name:, age:)
     self.name = name
     self.age = age
   end

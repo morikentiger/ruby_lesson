@@ -1,11 +1,12 @@
 require "./person"
 
-person1 = Person.new("にんじゃわんこ", 14)
-person2 = Person.new("ひつじ仙人", 65)
-person3 = Person.new("ベイビーわんこ", 9)
-person4 = Person.new("morikentiger", 28)
+person1 = Person.new(name:"にんじゃわんこ", age:14)
+person2 = Person.new(name:"ひつじ仙人", age:65)
+person3 = Person.new(name:"ベイビーわんこ", age:9)
+person4 = Person.new(name:"morikentiger", age:28)
 
-person1.introduce
-person2.introduce
-person3.introduce
-person4.introduce
+persons = [person1, person2, person3, person4]
+
+persons.each do |person|
+  person.introduce
+end
