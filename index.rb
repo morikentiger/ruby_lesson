@@ -7,6 +7,10 @@ person4 = Person.new(name:"morikentiger", age:28)
 
 persons = [person1, person2, person3, person4]
 
+index = 0
+
 persons.each do |person|
+  puts "#{index}. "
   person.introduce
+  index += 1
 end
